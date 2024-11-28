@@ -9,7 +9,7 @@ printf("Enter ur message");
 fgets(message,sizeof(message),stdin);
 ptr = fopen("https://github.com/Pratik846-ux/Pratik.com/blob/main/A00b.txt","w");
 //printf("Enter ur message");
-puts(message);
+fprintf(ptr,"message %s", message);
 fflush(stdin);
 fclose(ptr);
 

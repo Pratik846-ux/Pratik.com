@@ -7,7 +7,7 @@ char message[50];
 FILE *ptr;
 printf("Enter ur message");
 fgets(message,sizeof(message),stdin);
-ptr = fopen("a00b.txt","w");
+ptr = fopen("https://github.com/Pratik846-ux/Pratik.com/blob/main/A00b.txt","w");
 //printf("Enter ur message");
 puts(message);
 fflush(stdin);
